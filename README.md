@@ -95,3 +95,10 @@ origin	git@github.com:100knock_2/git-practice.git (push)
 
 ## 04. ファイルの変更とpush/pull
 ローカルでREADME.mdを編集しました。
+### 実行したコマンド
+```bash
+git fetch origin
+git log --oneline -5
+git log --oneline origin/main -5
+```
+<img width="400" height="142" alt="0b0ef75b-d548-4d58-8b06-2a6b1ab7fa45" src="https://github.com/user-attachments/assets/31b9533f-932f-41cf-8361-94e6ad90610a" />
