@@ -103,3 +103,11 @@ git log --oneline origin/main -5
 ```
 ### 確認した結果
 <img width="400" height="142" alt="0b0ef75b-d548-4d58-8b06-2a6b1ab7fa45" src="https://github.com/user-attachments/assets/31b9533f-932f-41cf-8361-94e6ad90610a" />
+
+
+
+
+## 05. .gitignoreファイルの作成
+
+
+
