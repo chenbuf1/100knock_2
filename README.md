@@ -82,7 +82,7 @@ Hi chenbuf1! You've successfully authenticated, but GitHub does not provide shel
 ## 03. ローカルリポジトリとGitHubリポジトリの連携
 ### 実行したコマンド
 ```bash
-git remote add origin git@github.com:100knock_2/git-practice.git
+git remote add origin git@github.com:chenbuf1/100knock_2.git
 ```
 ### git remote -v で認証確認した結果
 ```text
