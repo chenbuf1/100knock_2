@@ -58,7 +58,7 @@ git rev-parse HEAD
 
 ## 02. GitHubアカウントの作成，2段階認証とSSHキー登録
 ### 登録手順
-```text
+```bash
 1. ターミナルで以下のコマンドを実行し、公開鍵をクリップボードにコピーする。
    `pbcopy < ~/.ssh/id_ed25519.pub`
 2. GitHubにログインし、「Settings」→「SSH and GPG keys」を開く。
