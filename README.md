@@ -130,5 +130,5 @@ EOF
 
 
 ## 06. ブランチの作成と切り替え
-<img width="700" height="300" alt="e1e99da7-8d3d-4463-b88d-902f4c72694b" src="https://github.com/user-attachments/assets/8528e37c-362e-4242-9489-ff68e037e504" />
+<img width="500" height="300" alt="e1e99da7-8d3d-4463-b88d-902f4c72694b" src="https://github.com/user-attachments/assets/8528e37c-362e-4242-9489-ff68e037e504" />
 
