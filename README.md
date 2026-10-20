@@ -56,6 +56,7 @@ git rev-parse HEAD
 
 
 
+
 ## 02. GitHubアカウントの作成，2段階認証とSSHキー登録
 ### 登録手順
 ```bash
@@ -74,3 +75,49 @@ git rev-parse HEAD
 ```text
 Hi chenbuf1! You've successfully authenticated, but GitHub does not provide shell access.
 ```
+
+
+
+
+## 03. ローカルリポジトリとGitHubリポジトリの連携
+### 実行したコマンド
+```bash
+git remote add origin git@github.com:100knock_2/git-practice.git
+```
+### git remote -v で認証確認した結果
+```text
+origin	git@github.com:100knock_2/git-practice.git (fetch)
+origin	git@github.com:100knock_2/git-practice.git (push)
+```
+
+
+
+
+## 04. ファイルの変更とpush/pull
+
+
+
+
+## 05. .gitignoreファイルの作成
+
+
+
+
+## 06. ブランチの作成と切り替え
+
+
+
+
+## 07. Pull Request（PR）の作成
+
+
+
+
+## 08. 過去のコミット履歴の確認と差分の確認
+
+
+
+
+## 09. コンフリクトの発生と解消
+
+
