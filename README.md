@@ -124,7 +124,7 @@ EOF
 | `.DS_Store` | macOSが自動生成する不要な管理ファイルのため。 |
 
 ### 確認した結果
-<img width="700" height="346" alt="bf14b580-b310-4424-8127-e12e9c7e0525" src="https://github.com/user-attachments/assets/e9d237fb-1fb6-4bfe-a4f7-bfdf42df0e51" />
+<img width="365" height="146" alt="bf14b580-b310-4424-8127-e12e9c7e0525" src="https://github.com/user-attachments/assets/e9d237fb-1fb6-4bfe-a4f7-bfdf42df0e51" />
 <img width="365" height="44" alt="e587fa9b-3502-445d-afc7-733d94f71891" src="https://github.com/user-attachments/assets/f81b2378-0c61-4c0d-b73f-a425fb9d9aec" />
 
 
