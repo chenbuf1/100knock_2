@@ -129,3 +129,6 @@ EOF
 <img width="365" height="44" alt="e587fa9b-3502-445d-afc7-733d94f71891" src="https://github.com/user-attachments/assets/f81b2378-0c61-4c0d-b73f-a425fb9d9aec" />
 
 
+## 06. ブランチの作成と切り替え
+<img width="700" height="666" alt="e1e99da7-8d3d-4463-b88d-902f4c72694b" src="https://github.com/user-attachments/assets/8528e37c-362e-4242-9489-ff68e037e504" />
+
