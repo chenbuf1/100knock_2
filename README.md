@@ -16,7 +16,6 @@ git config --global user.name "chen"
 git config --global user.email "236504822+chenbuf1@users.noreply.github.com"
 git config --global init.defaultBranch main
 ```
-メールアドレスには、プライバシー保護のため、GitHubが提供するnoreplyアドレスを使用した。
 ### 3. 設定内容の確認
 以下のコマンドを実行した。
 ```bash
@@ -32,7 +31,7 @@ user.name=chen
 user.email=236504822+chenbuf1@users.noreply.github.com
 init.defaultbranch=main
 ```
-以上より、Gitのインストールと初期設定が正常に完了したことを確認した。
+
 
 
 
