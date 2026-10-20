@@ -143,6 +143,7 @@ EOF
 ## 08. 過去のコミット履歴の確認と差分の確認
 ### 過去のコミット履歴の確認
 <img width="500" height="100" alt="b46b3ac5-50ab-484d-87e1-49670f75ba0d" src="https://github.com/user-attachments/assets/beeea53b-d70a-4b84-925d-9592352d15ea" />
+<br>
 ### 差分の確認
 <img width="500" height="100" alt="3cef7a6b-4142-4917-be49-745addd465a1" src="https://github.com/user-attachments/assets/042291d1-269f-482b-a0c2-783307abfd36" />
 
