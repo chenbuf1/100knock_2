@@ -149,3 +149,5 @@ EOF
 
 <img width="500" height="100" alt="3cef7a6b-4142-4917-be49-745addd465a1" src="https://github.com/user-attachments/assets/042291d1-269f-482b-a0c2-783307abfd36" />
 
+
+## 09. コンフリクトの発生と解消
