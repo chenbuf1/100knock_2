@@ -1,0 +1,103 @@
+body {
+  background-color: #f4f4f4;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #333;
+  padding: 40px;
+}
+
+h1 {
+  color: #0066cc;
+  font-size: 28px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+img {
+  border-radius: 10px;
+  margin-top: 15px;
+  width: 200px;
+}
+
+/* レイアウト全体 */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+/* ヘッダーとフッター */
+.header,
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* 本文とサイドバーを横並びに */
+.main-content {
+  display: flex;
+  flex: 1;
+}
+
+/* 本文 */
+.main {
+  flex: 3;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+/* サイドバー */
+.sidebar {
+  flex: 1;
+  padding: 20px;
+  background-color: #d0e0f0;
+}
+
+
+
+/* === 課題28: アニメーション === */
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+  background-color: #388e3c;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h2 {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
