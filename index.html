@@ -1,92 +1,71 @@
-<html>
-  <head>
-    <title> 最小限のHTMLページ</title>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>最小限のHTMLページ</title>
   <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    
-    <div class="container">
-    <header class="header">ヘッダー
-    <h1>自己紹介</h1>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>自己紹介</h1>
     </header>
 
     <div class="main-content">
-    <main class="main">本文エリア</main>
-　　
-      <img src="photo.jpg" alt="photo" width="100">
-      <section>
-      <h2>興味</h2>
-      <p>私は音楽が好きです：</p>
-      <ul>
-       <li>ずっと真夜中でいいのに。</li>
-       <li>トゲナシトゲアリ</li>
-      </ul>
+      <main class="main">
+        <h2>本文エリア</h2>
+        <img src="photo.jpg" alt="プロフィール写真" width="100">
 
-      </section>
-      
-      <section>
-      <h2>学校リンク</h2>
-　 　  <p>
-        詳しくは <a href="https://www.design.kyushu-u.ac.jp/" target="_blank">九州大学芸術工学部のサイト</a> をご覧ください。
-       </p>
-       <h2>画像表示</h2>
-       <img src="https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2025/11/a117bf10afbed54b93cb58d888dc5fe5-2048x1365.jpg"
-        alt="九州大学校内" width="200">
-      </section>
+        <section>
+          <h2>興味</h2>
+          <p>私は音楽が好きです：</p>
+          <ul>
+            <li>ずっと真夜中でいいのに。</li>
+            <li>トゲナシトゲアリ</li>
+          </ul>
+        </section>
 
-<section>
-    
-    <h2>お問い合わせフォーム</h2>
-    <form action="#" method="post">
-      <label for="name">名前：</label><br>
-      <input type="text" id="name" name="name" placeholder="お名前を入力してください"><br><br>
-      <label for="email">メールアドレス：</label><br>
-      <input type="email" id="email" name="email" placeholder="example@example.com"><br><br>
-      <label for="message">メッセージ：</label><br>
-      <textarea id="message" name="message" rows="5" cols="40" placeholder="ご質問ください"></textarea><br><br>
-      <button type="submit">送信</button>
-      </form>
-</section>
+        <section>
+          <h2>学校リンク</h2>
+          <p>詳しくは <a href="https://www.design.kyushu-u.ac.jp/" target="_blank" rel="noopener noreferrer">九州大学芸術工学部のサイト</a> をご覧ください。</p>
+          <h2>画像表示</h2>
+          <img src="https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2025/11/a117bf10afbed54b93cb58d888dc5fe5-2048x1365.jpg" alt="九州大学校内" width="200">
+        </section>
 
-      <section>
-    <h2>授業時間割</h2>
-    <table border="1">
-    <tr>
-      <th>時間</th>
-      <th>月曜日</th>
-      <th>火曜日</th>
-      <th>水曜日</th>
-      <th>木曜日</th>
-      <th>金曜日</th>
-    </tr>
-    <tr>
-      <td>1限</td>
-      <td>数学</td>
-      <td>英語</td>
-      <td>化学</td>
-      <td>国語</td>
-      <td>物理</td>
-    </tr>
-    <tr>
-      <td>2限</td>
-      <td>体育</td>
-      <td>数学</td>
-      <td>英語</td>
-      <td>歴史</td>
-      <td>情報</td>
-    </tr>
-    </table>
-    </section>
+        <section>
+          <h2>お問い合わせフォーム</h2>
+          <form action="#" method="post">
+            <label for="name">名前：</label><br>
+            <input type="text" id="name" name="name" placeholder="お名前を入力してください"><br><br>
+            <label for="email">メールアドレス：</label><br>
+            <input type="email" id="email" name="email" placeholder="example@example.com"><br><br>
+            <label for="message">メッセージ：</label><br>
+            <textarea id="message" name="message" rows="5" cols="40" placeholder="ご質問ください"></textarea><br><br>
+            <button type="submit">送信</button>
+          </form>
+        </section>
 
-        <aside class="sidebar">
-        <h3>よろしくお願い</h3>
+        <section>
+          <h2>授業時間割</h2>
+          <div class="table-wrap">
+            <table border="1">
+              <tr><th>時間</th><th>月曜日</th><th>火曜日</th><th>水曜日</th><th>木曜日</th><th>金曜日</th></tr>
+              <tr><td>1限</td><td>数学</td><td>英語</td><td>化学</td><td>国語</td><td>物理</td></tr>
+              <tr><td>2限</td><td>体育</td><td>数学</td><td>英語</td><td>歴史</td><td>情報</td></tr>
+            </table>
+          </div>
+        </section>
+      </main>
+
+      <aside class="sidebar">
+        <h3>よろしくお願いします</h3>
       </aside>
     </div>
 
-      
     <footer class="footer">
       <p>&copy; 2025 Bufan Chen</p>
     </footer>
-    
-  </body>
+  </div>
+</body>
 </html>
