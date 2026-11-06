@@ -68,6 +68,34 @@ img {
 }
 
 
+/* 23. レスポンシブ対応 */
+
+/* PC表示（601px以上） */
+@media (min-width: 601px) {
+  .main-content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+}
+
+/* スマートフォン表示（600px以下） */
+@media (max-width: 600px) {
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+}
+
 
 /* === 課題28: アニメーション === */
 
